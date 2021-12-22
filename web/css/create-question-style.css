@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 3, 2020, 9:28:00 AM
+    Author     : Tam
+*/
+body {
+    background-color: whitesmoke;
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+    font-size: 80%;
+}
+
+.left {
+    text-align: left;
+}
+
+#logout {
+    padding: 0.5%;
+    margin: 0.2%; 
+}
+
+nav {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1%;
+    width: 20%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 3px 7px #DCDCDC;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10%;
+}
+
+a:hover {   
+    cursor: pointer;
+    color: #6b18e1;
+}
+
+div {
+    background-color: white;
+    border-radius: 5px;
+    width: 70%;
+    padding: 1%;
+    margin: 2% auto;
+}
+
+input[type=submit],
+input[type=reset] {
+    cursor: pointer;        
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background-image: linear-gradient(to right, #2bc6fd, #8f4eec);
+}
+
+.custom-width {
+    width: 15%;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-image: linear-gradient(to right, #ff79ed, #ff6b93);
+    color: white;
+}
+
+::placeholder {
+    color: #dad6d7;
+}
+
+textarea {
+    border-style: none; 
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin: 1%;
+    width: 70%;
+}

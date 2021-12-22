@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 27, 2020, 9:08:36 AM
+    Author     : Tam
+*/
+body {
+    background-color: whitesmoke;
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+    font-size: 80%;
+}
+
+div {
+    background-color: white;
+    border-radius: 5px;
+    width: 20%;
+    padding: 1%;
+    position: relative;
+    top: 50%;
+    transform: translateY(30%);
+    margin: auto;
+}
+
+input[type=email],
+input[type=password] {
+    border: none;
+    border-bottom: 1px gray solid;   
+    width: 90%;
+    padding-top: 5%;
+    outline: none;
+}
+
+input {
+    margin-top: 10%;
+}
+
+input[type=submit],
+input[type=reset] {
+    cursor: pointer;
+    width: 45%;
+    margin-top: 15%;
+    padding: 4%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    background-image: linear-gradient(to right, #2bc6fd, #8f4eec);
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    background-image: linear-gradient(to right, #ff79ed, #ff6b93);
+    color: white;
+}
+
+::placeholder {
+    color: #dad6d7;
+}
+
+p {
+    padding-top: 25%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {   
+    cursor: pointer;
+    color: #6b18e1;
+}
